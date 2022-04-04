@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <script type="text/javascript" src="script.js"></script>
+
+    <style>
+    input{
+        padding: 5px;
+    }
+    button{
+        cursor: pointer;
+    }
+    </style>
+
+</head>
+<body style="text-align: center; background-color: #cecece">
+    <h1>Calculadora</h1>
+    <form action="">
+
+        <input type="text" id="valor1" placeholder="Digite o primeiro valor">
+
+        <br><br>
+
+        <input type="text" id="valor2" placeholder="Digite o segundo valor">
+
+        <br><br><br><br>
+
+        <button type="submit" onclick="Somar(); return false;">Soma</button>
+        <button type="submit" onclick="Subtrair(); return false;">Subtração</button>
+        <button type="submit" onclick="Multiplicar(); return false;">Multiplicação</button>
+        <button type="submit" onclick="Dividir(); return false;">Divisão</button>
+
+        <br><br><br><br>
+
+        <input type="text" id="resultado" placeholder="Resultado">
+        
+        <br><br>
+
+        <button type="submit" onclick="Clear(); return false;">Limpar Campos</button>
+
+    </form>
+</body>
+</html>
